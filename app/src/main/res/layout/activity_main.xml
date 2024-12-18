@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFBB86FC"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt"
+        android:layout_width="394dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="МОБИЛЬНОЕ TV"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:id="@+id/imageView"
+        android:layout_width="726dp"
+        android:layout_height="310dp"
+        android:foregroundGravity="center_horizontal"
+        android:src="@drawable/photo"/>
+
+</LinearLayout>
